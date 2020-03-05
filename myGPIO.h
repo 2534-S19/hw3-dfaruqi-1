@@ -12,13 +12,13 @@
 // This function initializes the peripherals used in the program.
 void initGPIO();
 // This function returns the value of Launchpad S1.
-unsigned char checkStatus_LaunchpadS1();
+bool checkStatus_LaunchpadS1();
 // This function returns the value of Launchpad S2.
-unsigned char checkStatus_LaunchpadS2();
+bool checkStatus_LaunchpadS2();
 // This function returns the value of Boosterpack S1.
-unsigned char checkStatus_BoosterpackS1();
+bool checkStatus_BoosterpackS1();
 // This function returns the value of Boosterpack S2.
-unsigned char checkStatus_BoosterpackS2();
+bool checkStatus_BoosterpackS2();
 // This function turns on Launchpad LED1.
 void turnOn_LaunchpadLED1();
 // This function turns off Launchpad LED1.
